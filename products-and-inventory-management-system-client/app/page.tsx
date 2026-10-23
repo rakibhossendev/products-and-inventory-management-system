@@ -2,7 +2,6 @@
 import {
   Wallet,
 } from "lucide-react";
-import Navbar from "@/components/HomePage/Navbar";
 import HeroSection from "@/components/HomePage/HeroSection/HeroSection";
 import PreviewCart from "@/components/HomePage/HeroSection/Chart";
 import FeaturesSection from "@/components/HomePage/Features/FeaturesSection";
@@ -16,11 +15,11 @@ export default function HomePage() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#F7FAF8] text-[#18251D]">
       {/* Navbar */}
-     <Navbar/>
+   
 
       {/* Hero */}
       <section className="relative px-5 pb-20 pt-16 sm:pt-24 lg:px-8 lg:pb-28">
-        <div className="pointer-events-none absolute left-1/2 top-0 -z-0 size-[500px] -translate-x-1/2 rounded-full bg-[#DDF2E3]/60 blur-[100px]" />
+        <div className="pointer-events-none absolute left-1/2 top-0 z-0 size-125 -translate-x-1/2 rounded-full bg-[#DDF2E3]/60 blur-[100px]" />
         <div className="relative mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-2 lg:gap-16">
           <HeroSection/>
 

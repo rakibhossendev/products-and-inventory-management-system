@@ -1,6 +1,10 @@
+import UserDashboardMenu from "@/components/user-dashboard-menu/UserDashboardMenu";
+
 export default function UserDashboard(){
 
     return (
-        <h1>Welcome Users Dashboard</h1>
+        <section>
+            <UserDashboardMenu/>
+        </section>
     )
 }
